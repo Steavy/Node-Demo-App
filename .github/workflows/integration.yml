@@ -2,9 +2,9 @@ name: Integration
 
 on:
   push:
-    branches: [ development, release-workflow ]
+    branches: [ development, WorkShopQA_branch ]
   pull_request:
-    branches: [ development, release-workflow ]
+    branches: [ development, WorkShopQA_branch ]
     types: [opened, synchronize, reopened]   
 
 jobs:
