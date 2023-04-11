@@ -27,7 +27,7 @@
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Start local with existing docker image from Docker Hub
-docker run --publish 3000:3000 steavy/nest-app
+docker run --publish 3000:3000 steavy/nest-demo-app
 
 ## Installation
 
