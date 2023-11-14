@@ -2,7 +2,7 @@ name: Integration
 
 on:
   push:
-    branches: [ development, workshop ]
+    branches: [ development, workshop, master ]
   pull_request:
     branches: [ development, workshop ]
     types: [opened, synchronize, reopened]   
