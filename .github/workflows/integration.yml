@@ -45,13 +45,3 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: npm run test
-
-  zap_scan:
-
-    runs-on: ubuntu-latest  
-
-    steps:    
-      - name: Scan the webapplication    
-        uses: zaproxy/action-baseline@v0.9.0
-        with:
-         target: 'https://juice-shop.herokuapp.com/#/'
