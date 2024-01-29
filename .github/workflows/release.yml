@@ -16,8 +16,10 @@ jobs:
     - run: docker push steavy/nest-demo-app
  
 
-  snyk:
+  snyk_image_scanning:
+    
     runs-on: ubuntu-latest
+    
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
