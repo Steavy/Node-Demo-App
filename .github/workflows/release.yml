@@ -17,10 +17,10 @@ jobs:
  
 
   snyk_image_scanning:    
-    permissions:
-       id-token: read
-       contents: read
-       packages: read
+   # permissions:
+   #    id-token: read
+   #    contents: read
+   #    packages: read
     runs-on: ubuntu-latest
     
     steps:
