@@ -2,9 +2,9 @@ name: Integration
 
 on:
   push:
-    branches: [ development, steven ]
+    branches: [ steven-demo-start ]
   pull_request:
-    branches: [ main ]
+    branches: [ development, main ]
     types: [opened, synchronize, reopened]   
 
 jobs:
