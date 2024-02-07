@@ -2,7 +2,7 @@ name: Integration
 
 on:
   push:
-    branches: [ steven-demo-start ]
+    branches: [ sast-demo-start ]
   pull_request:
     branches: [ development, main ]
     types: [opened, synchronize, reopened]   
